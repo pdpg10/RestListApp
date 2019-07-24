@@ -1,4 +1,4 @@
-package com.example.restlistapp
+package com.example.restlistapp.model
 
 import com.google.gson.annotations.SerializedName
 

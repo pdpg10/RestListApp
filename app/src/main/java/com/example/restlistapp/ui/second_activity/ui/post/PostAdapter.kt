@@ -1,4 +1,4 @@
-package com.example.restlistapp
+package com.example.restlistapp.ui.second_activity.ui.post
 
 
 import android.view.LayoutInflater
@@ -6,9 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.restlistapp.R
+import com.example.restlistapp.model.Post
 import kotlinx.android.synthetic.main.fragment_post.view.*
 
-class MyPostRecyclerViewAdapter() : RecyclerView.Adapter<MyPostRecyclerViewAdapter.ViewHolder>() {
+class PostAdapter() : RecyclerView.Adapter<PostAdapter.ViewHolder>() {
     private val list: ArrayList<Post> = arrayListOf()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
