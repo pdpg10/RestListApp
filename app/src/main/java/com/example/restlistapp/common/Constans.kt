@@ -6,3 +6,4 @@ const val USERS = "users"
 
 
 const val USER_ID = "USER_ID"
+const val KEY_POST= "KEY_POST"

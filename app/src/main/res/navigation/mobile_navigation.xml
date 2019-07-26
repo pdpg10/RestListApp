@@ -9,11 +9,23 @@
     <fragment
         android:id="@+id/nav_posts"
         android:name="com.example.restlistapp.ui.second_activity.ui.post.PostFragment"
-        tools:layout="@layout/fragment_post" />
+        tools:layout="@layout/fragment_post">
+        <action
+            android:id="@+id/action_nav_posts_to_postItemFragment"
+            app:destination="@id/postItemFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_albums"
         android:name="com.example.restlistapp.ui.second_activity.ui.home.HomeFragment"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/postItemFragment"
+        android:name="com.example.restlistapp.ui.post_item.PostItemFragment"
+        android:label="PostItemFragment">
+        <argument
+            android:name="post"
+            app:argType="com.example.restlistapp.model.Post" />
+    </fragment>
 
 </navigation>
