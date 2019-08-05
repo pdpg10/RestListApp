@@ -13,7 +13,6 @@ class PostItemFragment : BaseFragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val post: Post? = arguments?.getParcelable(KEY_POST)
-        Log.d("onCreate", "onCreate $post")
     }
 
 }

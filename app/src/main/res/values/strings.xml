@@ -16,4 +16,6 @@
     <string name="menu_send">Send</string>
     <string name="menu_posts">Posts</string>
     <string name="menu_albums">Albums</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
 </resources>

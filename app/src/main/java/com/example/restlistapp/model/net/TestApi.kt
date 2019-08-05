@@ -1,14 +1,13 @@
 package com.example.restlistapp.model.net
 
-import com.example.restlistapp.common.BASE_URL
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
-object RestApiImpl {
-    val restApi: IRestApi by lazy {
+object TestApi {
+    val restApi: ITestApi by lazy {
         val retrofit = initRetrofit()
-        retrofit.create(IRestApi::class.java)
+        retrofit.create(ITestApi::class.java)
     }
 
     private fun initRetrofit(): Retrofit {
